@@ -1,4 +1,4 @@
-name: Update Binaries
+name: Update Binaries Debug
 
 on:
   workflow_dispatch:
