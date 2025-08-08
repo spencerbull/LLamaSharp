@@ -1,4 +1,4 @@
-﻿namespace LLama.Native;
+namespace LLama.Native;
 
 /// <summary>
 /// Possible GGML quantisation types
@@ -99,6 +99,11 @@ public enum GGMLType
     /// Integer, 32 bit
     /// </summary>
     GGML_TYPE_I32 = 18,
+
+    /// <summary>
+    /// 
+    /// </summary>
+    GGML_TYPE_MXFP4 = 39,
 
     /// <summary>
     /// The value of this entry is the count of the number of possible quant types.
