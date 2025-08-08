@@ -40,6 +40,7 @@ public static class IModelParamsExtensions
         result.use_mmap = @params.UseMemorymap;
         result.vocab_only = @params.VocabOnly;
         result.check_tensors = @params.CheckTensors;
+        result.use_extra_bufts = @params.UseExtraBufts;
 
         unsafe
         {

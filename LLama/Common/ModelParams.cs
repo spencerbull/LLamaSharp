@@ -121,6 +121,9 @@ namespace LLama.Common
         /// <inheritdoc />
         public bool? KVUnified { get; set; }
 
+        /// <inheritdoc />
+        public bool UseExtraBufts { get; set; }
+
         /// <summary>
         /// `Encoding` cannot be directly JSON serialized, instead store the name as a string which can
         /// </summary>

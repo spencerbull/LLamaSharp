@@ -105,6 +105,7 @@ namespace LLama
 
                 case LLamaFtype.MOSTLY_IQ3_S:
                 case LLamaFtype.MOSTLY_IQ3_M:
+                case LLamaFtype.LLAMA_FTYPE_MOSTLY_MXFP4_MOE:
 
                     return true;
 

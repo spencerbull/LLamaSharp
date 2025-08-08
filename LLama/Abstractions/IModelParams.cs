@@ -80,6 +80,11 @@ namespace LLama.Abstractions
         bool CheckTensors { get; }
 
         /// <summary>
+        /// use extra buffer types (used for weight repacking)
+        /// </summary>
+        bool UseExtraBufts { get; }
+
+        /// <summary>
         /// Override specific metadata items in the model
         /// </summary>
         List<MetadataOverride> MetadataOverrides { get; }
